@@ -38,4 +38,4 @@ jobs:
 
       - name: 运行脚本
 
-       run: python musicdownload_test.py
+       run: python musicdownload.py
