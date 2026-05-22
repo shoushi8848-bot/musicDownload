@@ -38,4 +38,4 @@ jobs:
 
       - name: 运行脚本
 
-        run: python main.py
+        run: ls
