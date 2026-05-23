@@ -25,12 +25,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: 运行脚本
-        run: |
-          python -c "
-          from musicdl import musicdl
-
-          client = musicdl()
-
-          results = client.search(keyword='周杰伦')
-          print(results)
-          "
+  run: |
+    python musicdownload.py
